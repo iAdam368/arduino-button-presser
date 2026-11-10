@@ -71,10 +71,10 @@ It is also aimed at a fairly specific problem: a thermostat that **times out** a
 ## How It Works
 
 ```
- Power bank ──USB──▶ Arduino (Elegoo UNO R3) ──wires──▶ ULN2003 driver board ──▶ 28BYJ-48 stepper motor
-                                                                                       │
-                                                                          bottle-cap "finger" presses
-                                                                           the thermostat's heat button
+ Power bank ──USB──▶ Arduino board ──wires──▶ ULN2003 driver board ──▶ 28BYJ-48 stepper motor
+                                                                                  │
+                                                                      bottle-cap "finger" presses
+                                                                     the thermostat's heat button
 ```
 
 1. The **Arduino** runs a short program. It presses the button once as soon as it powers on, then again every **60 seconds**.
@@ -92,10 +92,10 @@ All parts were bought from Amazon UK. Several were sold in multi-packs, so I hav
 
 | # | Part | What it does | Qty needed | Qty bought | Cost (£) | Link |
 |---|------|--------------|:---------:|:----------:|---------:|------|
-| 1 | Elegoo UNO R3 board (Arduino-compatible) | The "brain" that runs the code | 1 | 1 | 12.10 | [https://amzn.eu/d/01Tw4LBA] |
-| 2 | JZK 5V geared stepper motors (28BYJ-48), 4-pack, **including 4 ULN2003 driver boards** | Turns to press the button | 1 + 1 driver | 4 + 4 | 9.99 | [https://amzn.eu/d/02aqiKWH] |
-| 3 | Elegoo 120-piece jumper wire kit (male-to-male, female-to-female, male-to-female) | Connects everything together | a handful | 120 | 5.63 | [https://amzn.eu/d/0hyNNKsh] |
-| 4 | 3M double-sided tape | Mounts the motor to the thermostat | 1 roll | 1 | ~2.50 | [https://amzn.eu/d/05dkqlPs] |
+| 1 | Elegoo UNO R3 board (Arduino-compatible) | The "brain" that runs the code | 1 | 1 | 12.10 | ![Amazon](https://amzn.eu/d/01Tw4LBA) |
+| 2 | JZK 5V geared stepper motors (28BYJ-48), 4-pack, **including 4 ULN2003 driver boards** | Turns to press the button | 1 + 1 driver | 4 + 4 | 9.99 | ![Amazon](https://amzn.eu/d/02aqiKWH) |
+| 3 | Elegoo 120-piece jumper wire kit (male-to-male, female-to-female, male-to-female) | Connects everything together | a handful | 120 | 5.63 | ![Amazon](https://amzn.eu/d/0hyNNKsh) |
+| 4 | 3M double-sided tape | Mounts the motor to the thermostat | 1 roll | 1 | ~2.50 | ![Amazon](https://amzn.eu/d/05dkqlPs) |
 | 5 | Plastic piece cut from a bottle cap | The "finger" that presses the button | 1 | 1 | Free | n/a |
 | | | | | **Total** | **£30.22** | |
 
