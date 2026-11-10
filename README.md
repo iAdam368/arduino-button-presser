@@ -181,15 +181,7 @@ Connect the Arduino to your power source and leave it running. **Read [Power](#p
  
 ## The Code
  
-<!-- TODO: Add the code to the code/ folder and link it here. -->
- 
-The code lives in [`code/`](code/):
- 
-```
-code/
-└── [BUTTON_PRESSER]/
-    └── [BUTTON_PRESSER].ino
-```
+The code lives in [`code/button-presser.ino`](code/button-presser.ino):
  
 In plain terms, the program:
  
@@ -326,8 +318,7 @@ Beyond cost, I ended up with leftover parts (3 more motors and drivers, plus lot
 ├── README.md
 ├── LICENSE
 ├── code/                 # Arduino sketch(es)
-│   └── [BUTTON_PRESSER]/
-│       └── [BUTTON_PRESSER].ino
+│   └── button-presser.ino
 ├── images/               # Photos of the finished build and each step
 ├── wiring/               # Wiring diagram (credit to @NikoDembartnik)
 └── docs/
