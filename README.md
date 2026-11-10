@@ -2,7 +2,7 @@
 
 > A small Arduino-powered "robot finger" that keeps a timer-based thermostat switched on by pressing its heat button automatically. Built for about **£30** instead of buying a plug-in heater.
 
-![button-presser](images/finished-project.jpg)   
+<img src="images/finished-project.jpg" alt="button presser" width="500">
 
 ---
 
@@ -51,10 +51,10 @@ Many students solve this by buying a plug-in heater or radiator. I found that wa
 A small Arduino-controlled motor is stuck next to the thermostat. At a regular interval it turns, a small plastic "finger" presses the heat-up button, and it returns to its resting position. The thermostat never gets the chance to time out, so the heating stays on.
 
 It is deliberately **simple and cheap**: no soldering, no 3D printing, no custom electronics. Everything was bought from Amazon, plugged together with jumper wires, and held in place with double-sided tape.
-
-![Mounted on thermostat](images/mounted-on-thermostat.jpg)
  
-
+<img src="images/mounted-on-thermostat.jpg" alt="mounted on thermostat" width="500">
+ 
+ 
 ## Will This Work for You?
 
 This project only suits thermostats that have **physical, mechanical buttons** that can be pressed by a small motor.
@@ -92,10 +92,10 @@ All parts were bought from Amazon UK. Several were sold in multi-packs, so I hav
 
 | # | Part | What it does | Qty needed | Qty bought | Cost (£) | Link |
 |---|------|--------------|:---------:|:----------:|---------:|------|
-| 1 | Elegoo UNO R3 board (Arduino-compatible) | The "brain" that runs the code | 1 | 1 | 12.10 | ![Amazon](https://amzn.eu/d/01Tw4LBA) |
-| 2 | JZK 5V geared stepper motors (28BYJ-48), 4-pack, **including 4 ULN2003 driver boards** | Turns to press the button | 1 + 1 driver | 4 + 4 | 9.99 | ![Amazon](https://amzn.eu/d/02aqiKWH) |
-| 3 | Elegoo 120-piece jumper wire kit (male-to-male, female-to-female, male-to-female) | Connects everything together | a handful | 120 | 5.63 | ![Amazon](https://amzn.eu/d/0hyNNKsh) |
-| 4 | 3M double-sided tape | Mounts the motor to the thermostat | 1 roll | 1 | ~2.50 | ![Amazon](https://amzn.eu/d/05dkqlPs) |
+| 1 | Elegoo UNO R3 board (Arduino-compatible) | The "brain" that runs the code | 1 | 1 | 12.10 | [Amazon](https://amzn.eu/d/01Tw4LBA) |
+| 2 | JZK 5V geared stepper motors (28BYJ-48), 4-pack, **including 4 ULN2003 driver boards** | Turns to press the button | 1 + 1 driver | 4 + 4 | 9.99 | [Amazon](https://amzn.eu/d/02aqiKWH) |
+| 3 | Elegoo 120-piece jumper wire kit (male-to-male, female-to-female, male-to-female) | Connects everything together | a handful | 120 | 5.63 | [Amazon](https://amzn.eu/d/0hyNNKsh) |
+| 4 | 3M double-sided tape | Mounts the motor to the thermostat | 1 roll | 1 | ~2.50 | [Amazon](https://amzn.eu/d/05dkqlPs) |
 | 5 | Plastic piece cut from a bottle cap | The "finger" that presses the button | 1 | 1 | Free | n/a |
 | | | | | **Total** | **£30.22** | |
 
@@ -131,7 +131,7 @@ A copy of this table is in [`docs/costs.csv`](docs/costs.csv).
 
 ## Wiring
 
-![Wiring diagram](wiring/wiring-diagram.jpg)
+<img src="wiring/wiring-diagram.jpg" alt="wiring diagram" width="600">
 
 The wiring diagram I followed came from the YouTube channel **[@NikoDembartnik](https://www.youtube.com/@NikoDembartnik)**. His video also has some very useful information about this motor, and I recommend watching it: **[28BYJ-48 stepper motor and ULN2003 Arduino (Quick tutorial for beginners)](https://www.youtube.com/watch?v=avrdDZD7qEQ)**. Full credit to him for the diagram.
  
@@ -272,7 +272,7 @@ If you want to avoid the problem, you could:
 
 ## Results
 
-![Completed project](images/finished-project.jpg)
+<img src="images/finished-project.jpg" alt="completed project" width="500">
 
 - The heating stayed on without me having to touch the thermostat.
 - No more night-time trips to the thermostat.
